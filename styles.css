@@ -97,3 +97,21 @@ h3 {
     margin-bottom: 32px;
     text-align: center;
 }
+
+.input__wrapper {
+    display: flex;
+}
+
+input {
+    border-radius: 20px;
+    border: 1px solid;
+    height: 70px;
+    width: 100%;
+    padding: 0 15px;
+}
+
+button {
+    border: 1px solid;
+    width: 200 px;
+    border-radius: 20px;
+}
