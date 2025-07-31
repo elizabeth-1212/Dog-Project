@@ -9,7 +9,46 @@
     font-family: "Roboto", sans-serif;
 }
 
+ul {
+    display: flex;
+}
+
+li {
+    list-style-type: none;
+}
+
 .logo {
     width: 100px;
+}
+
+.nav__container {
+    width: 100%;
+    max-width: 1200px;
+    padding: 0 24px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 auto;
+}
+
+.nav__link {
+    margin-left: 16px;
+    text-decoration: none;
+    font-size: 20px;
     color: blue;
+    font-weight: bold;
+    padding: 8px;
+}
+
+.nav__link:hover {
+    text-decoration: underline;
+}
+
+.nav__link--primary {
+    border: 2px solid blue;
+    border-radius: 4px;
+}
+
+.nav__link--primary:hover {
+    text-decoration: none;
 }
