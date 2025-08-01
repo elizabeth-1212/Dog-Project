@@ -117,11 +117,21 @@ input {
     padding-left: 25px;
 }
 
-.input__btn {
-    border: 1px solid;
+button {
+    border: none;
+    background-color: darkgrey;
     width: 25%;
     font-size: 40px;
     border-radius: 20px;
     margin-left: 20px;
     cursor: pointer;
+    transition: all .25s ease;
+}
+
+button:hover {
+    background-color: green;
+}
+
+.fa-paw {
+    color: blue;
 }
