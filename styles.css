@@ -59,6 +59,7 @@ li {
 
 .nav__link:hover {
     text-decoration: underline;
+    transition: all 300ms ease;
 }
 
 .nav__link--primary {
@@ -68,6 +69,8 @@ li {
 
 .nav__link--primary:hover {
     text-decoration: none;
+    background-color: darkgray;
+    transition: all 300ms ease;
 }
 
 
@@ -90,6 +93,7 @@ h1 {
     font-size: 56px;
     margin-bottom: 24px;
     text-align: center;
+    color: blue;
 }
 
 h3 {
@@ -125,13 +129,14 @@ button {
     border-radius: 20px;
     margin-left: 20px;
     cursor: pointer;
-    transition: all .25s ease;
-}
-
-button:hover {
-    background-color: green;
 }
 
 .fa-paw {
     color: blue;
 }
+
+.fa-paw:hover {
+    color: green;
+    transition: all 300ms ease;
+}
+
