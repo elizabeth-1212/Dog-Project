@@ -73,6 +73,10 @@ li {
     transition: all 300ms ease;
 }
 
+.blue {
+    color: blue;
+}
+
 
 
 /* LANDING */
@@ -142,12 +146,12 @@ button:hover {
 }
 
 .pawprints {
-    width: 100%;
+    width: 700px;
     position: absolute;
 }
 
 .dog {
-    width: 500px;
+    width: 400px;
     margin: 0 auto;
     position: relative;
 }
@@ -157,5 +161,10 @@ button:hover {
     transition: all 2s ease-in-out;
     z-index: 1000;
     width: 100%;
-    background-color: transparent;
+}
+
+.dog:before {
+    display: block;
+    animation: 2s linear infinite;
+    max-width: 500px;
 }
