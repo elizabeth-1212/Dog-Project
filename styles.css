@@ -107,6 +107,7 @@ h3 {
     position: relative;
     display: flex;
     justify-content: center;
+    margin-bottom: 32px;
 }
 
 input {
@@ -135,9 +136,14 @@ button {
     color: blue;
 }
 
-.fa-paw:hover {
-    color: green;
+button:hover {
+    background-color: green;
     transition: all 300ms ease;
+}
+
+.pawprints {
+    width: 100%;
+    position: absolute;
 }
 
 .dog {
@@ -151,4 +157,5 @@ button {
     transition: all 2s ease-in-out;
     z-index: 1000;
     width: 100%;
+    background-color: transparent;
 }
