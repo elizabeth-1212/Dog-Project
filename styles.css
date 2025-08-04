@@ -9,6 +9,25 @@
     font-family: "Roboto", sans-serif;
 }
 
+h1 {
+    font-size: 56px;
+    margin-bottom: 24px;
+}
+
+h3 {
+    font-size: 32px;
+    margin-bottom: 32px;
+}  
+
+h4 {
+    font-size: 24px;
+   
+}
+
+.blue {
+    color: blue;
+}
+
 
 
 /* NAV */
@@ -23,6 +42,12 @@ li {
     list-style-type: none;
 }
 
+.img__wrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
 .logo {
     width: 100px;
 }
@@ -30,12 +55,6 @@ li {
 .nav__title {
     color: rgba(0, 0, 255, 0.63);
     font-size: 16px;
-}
-
-.img__wrapper {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
 }
 
 .nav__container {
@@ -73,10 +92,6 @@ li {
     transition: all 300ms ease;
 }
 
-.blue {
-    color: blue;
-}
-
 
 
 /* LANDING */
@@ -93,16 +108,7 @@ li {
     justify-content: space-around;
 }
 
-h1 {
-    font-size: 56px;
-    margin-bottom: 24px;
-    text-align: center;
-    color: blue;
-}
-
-h3 {
-    font-size: 32px;
-    margin-bottom: 32px;
+.landing__text {
     text-align: center;
 }
 
@@ -167,4 +173,22 @@ button:hover {
     display: block;
     animation: 2s linear infinite;
     max-width: 500px;
+}
+
+
+
+/* SEARCH RESULTS */
+
+
+
+.search__container {
+    padding: 36px;
+    width: 100%;
+    margin: 0 auto;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+ 
+
 }
